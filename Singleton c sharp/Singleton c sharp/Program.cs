@@ -13,17 +13,17 @@ namespace Singleton_c_sharp
             // Constructor is protected -- cannot use new
             Acteur s1 = Acteur.Instance();
             Acteur s2 = Acteur.Instance();
-            Acteur s3 = Acteur.Instance();
-            Acteur s4 = Acteur.Instance();
-            Acteur s5 = Acteur.Instance();
-            Acteur s6 = Acteur.Instance();
+            //Acteur s3 = Acteur.Instance();
+            //Acteur s4 = Acteur.Instance();
+            //Acteur s5 = Acteur.Instance();
+            //Acteur s6 = Acteur.Instance();
             Acteur s7 = Acteur.Instance();
-            Acteur s8 = Acteur.Instance();
-            s7.SetValue("nom");
-            Console.WriteLine(s6.GetValue());
-            Console.WriteLine(s5.GetNbActeur());
+            //Acteur s8 = Acteur.Instance();
+
+            Console.WriteLine(s1.GetNbActeur());
+            s7.Write();
             // Wait for user
-            Console.Read();
+            //Console.Read();
         }
     }
 }
